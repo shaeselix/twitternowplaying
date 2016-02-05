@@ -1,1 +1,1 @@
-cat /Users/shaeselix/Downloads/nowplaying_csv/nowplaying.csv | python mapper.py | sort -k1,1 | python reducer.py > userplays.txt
+cat nowplaying.csv | python mapper.py | sort -k1,1 | python reducer.py > userplays.txt
