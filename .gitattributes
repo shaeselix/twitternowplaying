@@ -1,0 +1,4 @@
+bigtnpdata2.p filter=lfs diff=lfs merge=lfs -text
+userplays.txt filter=lfs diff=lfs merge=lfs -text
+nowplaying500.csv filter=lfs diff=lfs merge=lfs -text
+userplays500.txt filter=lfs diff=lfs merge=lfs -text
